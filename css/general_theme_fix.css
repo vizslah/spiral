@@ -1,0 +1,159 @@
+/* --------------------------
+ * ----- Header section -----
+ * -------------------------- */
+
+
+/* -- Hide 'primary' menu -- */
+#site-navigation > div.primary-navigation {
+    display: none !important;
+}
+
+/* -- Decrease header height -- */
+.site-header {
+    padding-top: 1.4em !important;
+}
+
+/* -- Main Menu to the right -- */
+#masthead > div.col-full > nav {
+    float: right !important;
+    margin-right: 0px;
+}
+
+.storefront-handheld-footer-bar {
+    display: none;
+}
+
+
+/* --------------------------
+ * ----- Footer section -----
+ * -------------------------- */
+
+div.widget-woocommerce-currency-switcher {
+    width: 150px;
+    float: right;
+}
+
+#menu-footer-menu li.menu-item a {
+    text-decoration: none !important;
+}
+
+
+/* --------------------------
+ * -- Product page section --
+ * -------------------------- */
+
+
+    /* -- hide location heading -- */
+.wcfm_custom_field_display_location > h4 {
+    display: none;
+}
+
+
+
+
+/* --------------------------
+ * -- Pricing page section --
+ * -------------------------- */
+
+
+    /* -- hide button under current plan -- */
+input[value="Extend Subscription"] {
+    visibility: hidden !important;
+}
+
+    /* -- hide funnel steps line -- */
+ol.wc-progress-steps {
+    display: none !important;
+}
+
+
+/* --------------------------
+ * --- My Account section ---
+ * -------------------------- */
+
+.appointment-actions {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+a.button.cancel {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* --------------------------
+ * -- Profile page section --
+ * -------------------------- */
+
+
+    /* -- Avatar -- */
+#wcfm_store_header div.logo_area img {
+    object-fit: cover !important;
+}
+
+div.wcfmmp_sold_by_container_advanced > div.wcfmmp_sold_by_container_left > img {
+    object-fit: cover !important;
+    width: 40px;
+    height: 40px;
+}
+    
+   /* -- message button -- */
+#wcfm_store_header #yobro-new-message {
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+#wcfm_store_header .bd_icon_area a {
+    margin-right: 40px;
+}
+
+   /* -- header full width -- */
+.wcfm_banner_area,
+#wcfm_store_header {
+width: 100vw;
+position: relative;
+left: 50%;
+right: 50%;
+margin-left: -50vw;
+margin-right: -50vw;
+}
+@media only screen and (min-width: 768px) {
+    #wcfm_store_header > div > div > div.lft.header_left {
+        margin-left: 10% !important;
+    }
+}
+
+    /* -- ?? -- */
+#wcfmmp-store-content > div.body_area > div.rgt.right_side.right_side_full {
+    padding-top: 10px !important;
+}
+
+    /* -- Profile tabs: decrease space below -- */
+#tabsWithStyle ul.tab_links {
+    margin-bottom: 10px !important;
+}
+
+/* ----------------------------
+ * -- Custom Spiral Elements --
+ * ---------------------------- */
+
+#spiral_nohide,
+#spiral_nohide > div {
+    background-color: #98aa77 !important;
+    color: black;
+}
+
+#spiral_nohide a,
+#spiral_nohide a:visited {
+    color: black;
+}
+
+
+/* VCV custom classes */
+@media all and (max-width: 768px) {
+    .feature_fix {
+        height: 300px;
+    }
+}

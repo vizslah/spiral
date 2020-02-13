@@ -1,0 +1,844 @@
+#wcfm-header {
+    display: none;
+}
+
+#wcfm-main-contentainer {
+    margin-top: 0 !important;
+}
+
+#wcfm-content {
+    border: 0 !important;
+}
+
+#wcfm-main-content {
+    padding-top: 0 !important;
+}
+
+.wcfm_header_panel_messages {
+    display: inline-block;
+}
+
+
+/* - Orders List - */
+
+#wcfm-orders td:nth-child(5) > span.wcpv-unpaid-status,
+#wcfm-orders td:nth-child(5) > span.wcpv-paid-status,
+#wcfm-orders td:nth-child(5) > span.wcpv-void-status {
+    display: none;
+}
+
+
+/* - Memberships - */
+#wcfm_membership_container > div > a:nth-child(3) {
+    display: none;
+}
+
+div.wcfm_membership_box.wcfm_free_membership_box div.wcfm_membership_subscribe_button_wrapper {
+    visibility: hidden;
+}
+
+#wcfm_profile_manage_form_membership_expander div.wcfm_review_pay_welcome {
+    display: none !important;
+}
+
+#wcfm_profile_manage_form_membership_expander div.wcfm_review_pay_free {
+    display: none;
+}
+
+#wcfm_profile_manage_form_membership_expander > div.wcfm_membership_review_pay + div {
+    display: none;
+}
+
+a.button.red {
+    background-color: #e06a43;
+    color: aliceblue;
+}
+
+a.button.red:hover {
+    background-color: #e0b943;
+    color: aliceblue;
+}
+
+a.spiral-premium {
+    margin-right: 20px;
+}
+
+i.spiral-premium {
+    color: #e06a43 !important;
+    font-size: 22px;
+}
+
+i.spiral-premium:hover {
+    color: #e0b943 !important;
+}
+
+div.wcfm_membership_review_plan {
+    background-color: #ffffff !important;
+}
+
+
+/* - Inquiry - */
+
+
+td.appointments-actions span {
+    display: table-cell;
+    text-align: center;
+}
+
+/* fix ugly wcfm popup trigger */
+a.wcfm_catalog_enquiry {
+    float: none !important;
+    border: 0px !important;
+    padding-left:  20px !important;
+    padding-right:  20px !important;
+    padding-top:  10px !important;
+    padding-bottom:  10px !important;
+    background-color: lightgray !important;
+    display: inline-block !important;
+    border-radius: 0px !important;
+    text-decoration: none !important;
+    color: #333333 !important;
+    margin: 0px !important
+}
+
+table.nomargin {
+    margin-bottom: 5px !important;
+    margin-top: 0px !important;
+}
+
+td.nomargin {
+    padding-bottom: 15px !important;
+    padding-top: 0px !important;
+}
+
+a.wcfm_catalog_enquiry:hover {
+    background-color: darkgray !important;
+}
+
+
+#wcfm-enquiry > thead > tr > th:nth-child(2),
+#wcfm-enquiry > tfoot > tr > th:nth-child(2),
+#wcfm-enquiry > tbody > tr > td:nth-child(2) {
+    display: none;
+}
+
+#email-notes {
+    font-size: 12px;
+}
+#enquiry_email {
+    margin-bottom: 0px;
+}
+#enquiry_comment {
+    height: 100px !important;
+}
+p.wcfm_popup_label {
+    margin-bottom: 6px;
+}
+a.wcfm_store_enquiry {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+div.inquiry_content,
+div.inquiry_reply_content {
+    font-size: 18px !important;
+    font-weight: 400;
+}
+
+.inquiry_content_for img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.inquiry_content_for,
+.inquiry_info {
+    width: 100%;
+}
+.inquiry_content_details {
+    width: 20% !important;
+    margin-left: 66%;
+    margin-top: 0px !important;
+}
+.inquiry_content {
+    float: left;
+    width: 50%;
+}
+
+#inquiry_reply {
+    height: 160px;
+}
+
+div.notification-ring {
+    display:none;
+}
+
+a.wcfm_header_panel_enquiry {
+    margin-right: 20px;
+}
+
+a.wcfm_header_panel_enquiry i {
+    font-size: 22px;
+}
+
+/* disabled on backend side, kept here for double safety */
+p.inquiry_stick,
+#inquiry_stick {
+    display: none !important;
+}
+
+
+/* --- Store Setup --- */
+/* - hide onboarding tinymce toolbar - */
+#wp-shop_description-editor-container #mceu_25,
+#wp-shop_description-editor-container #mceu_32 {
+    display: none;
+}
+#shop_description_ifr {
+    height: 60px !important;
+}
+tr.store_name_wrapper,
+div.wc-setup-content > form > table > tbody > tr.banner_wrapper,
+tr.store_email_wrapper,
+tr.payment_mode_wrapper {
+    display: none;
+}
+
+div.wc-setup-content > h1 {
+    font-size: 28px;
+}
+
+p.wc-setup-actions.step > a.button-primary.button.button-large.wcfm_submit_button,
+p.wc-setup-actions.step > input.button-primary.button.button-large.wcfm_submit_button {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    color: aliceblue;
+    background: #b93f27;
+}
+
+p.wc-setup-actions.step > a.button-primary.button.button-large.wcfm_submit_button:hover,
+p.wc-setup-actions.step > input.button-primary.button.button-large.wcfm_submit_button:hover {
+    text-shadow: none !important;
+    color: aliceblue;
+    background: #993521;
+}
+
+
+/* -- Disable "Add New" submenu popups -- */
+.wcfm_sub_menu_items {
+    display: none;
+}
+
+/* -- Tooltips -- */
+.qtip {
+    font-size: 15px !important;
+    line-height: 16px !important;
+}
+.fa-question.img_tip {
+    font-size: 10px !important;
+    border: 0px !important;
+    background: #e2a295 !important;
+    color: white !important;
+}
+.fa-question.img_tip:hover {
+    background: #b93f27 !important;
+}
+
+/* -- Report Menu hide stock-related -- */
+#wcfm_report_details > div.wcfm-collapse-content > div.wcfm-container.wcfm-top-element-container > ul > li:nth-child(3),
+#wcfm_report_details > div.wcfm-collapse-content > div.wcfm-container.wcfm-top-element-container > ul > li:nth-child(4) {
+    display: none;
+}
+
+/* -- Header Notice -- */
+div.spiral-header-notice {
+    position: absolute;
+    top: 20px;
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+div.spiral-header-notice a {
+    color: cadetblue;
+}
+div.spiral-header-notice a:hover {
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width: 768px) {
+    div.spiral-header-notice {
+        position: absolute;
+        top: 2px;
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    div.spiral-header-notice a {
+        color: aliceblue;
+    }
+}
+
+}
+
+
+/* --     Vacation Mode      -- */
+p.wcfm_disable_vacation_purchase.wcfm_title,
+p.wcfm_vacation_mode_type.wcfm_title,
+#wcfm_disable_vacation_purchase,
+#wcfm_vacation_mode_type
+{
+    display: none !important;
+}
+
+/* --     Offerings list     -- */
+
+/* show conditionally with javascript */
+span.wcfm_products_limit_label {
+    display: none;
+}
+
+/* --    Blogposts   --  */
+span.wcfm_articles_limit_label,
+ul.wcfm_articles_menus > li.wcfm_articles_menu_item:nth-of-type(4) {
+    display: none;
+}
+
+/* -- Featured Star Button -- */
+/* -- Archive Button -- */
+a.wcfm_product_archive.wcfm-action-icon,
+a.wcfm_product_featured.wcfm-action-icon {
+    display: none;
+}
+
+#wcfm_product_featured {
+    display: none !important;
+}
+
+/* ---------------------------------- 
+// -- New Offering / Edit Offering -- //
+// --          Section             -- //
+   ---------------------------------- */
+
+/* Hide View button next to save */
+input.wcfm_submit_button[value='View'] {
+    display: none;
+}
+
+/* Fix section padding gaps */
+#wcfm_products_manage_form_general_expander {
+    padding-bottom: 0px !important;
+}
+
+#wcfm_products_manage_form_general_expander > div.wcfm_product_manager_general_fields > div.wcfm-content {
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+
+#pro_title {
+    width: 50% !important;
+}
+
+#wcfm_products_manage_form_general_expander input.spiral_half_width {
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #wcfm_products_manage_form_general_expander input.spiral_half_width {
+        width: 100% !important;
+    }
+    #regular_price,
+    #spiral_price_USD,
+    #spiral_price_GBP,
+    #spiral_price_HUF {
+        width: 100% !important;
+    }
+    p.spiral_price_USD.wcfm_half_ele_title.wcfm_title,
+    p.spiral_price_GBP.wcfm_half_ele_title.wcfm_title,
+    p.spiral_price_HUF.wcfm_half_ele_title.wcfm_title,
+    p.regular_price.wcfm_half_ele_title.wcfm_title {
+        text-align: left !important;
+        width: 25% !important;
+    }
+    #pro_title {
+        margin-bottom: 15px !important;
+    }
+}
+
+#wcfm_products_manage_form_general_expander > div.wcfm_product_manager_gallery_fields > span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#regular_price,
+#spiral_price_USD,
+#spiral_price_GBP,
+#spiral_price_HUF {
+    margin-right: 0px !important;
+}
+
+p.spiral_price_USD.wcfm_half_ele_title.wcfm_title,
+p.spiral_price_GBP.wcfm_half_ele_title.wcfm_title,
+p.spiral_price_HUF.wcfm_half_ele_title.wcfm_title,
+p.regular_price.wcfm_half_ele_title.wcfm_title {
+    padding-right: 10px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+div.wcfm-content #excerpt {
+    /* width: 70% !important; */
+}
+
+div.wcfm_product_manager_gallery_fields {
+    /* max-height: 200px; */
+}
+
+#wcfm_products_manage_form_general_expander > div.wcfm_product_manager_gallery_fields > span {
+    width: 200px !important;
+}
+
+#featured_img_display {
+    max-width: 235px !important;
+    max-height: 100%;
+    min-height: inherit;
+    width: 230px !important;
+}
+
+/* restructure field margins so it looks good
+// with type field hidden as well */
+#product_type {
+    margin-bottom: 35px;
+}
+#pro_title {
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    width: 60% !important;
+}
+
+#product_addons_data > div.wc-pao-actions > div.wc-pao-toolbar__import-export {
+    display: none;
+}
+#product_addons_data > p.description {
+    font-size: 16px;
+}
+#wcfm_products_manage_form_staffs_head {
+    display: none;
+}
+
+/* -- Hide Catalog visibility -- */
+p.catalog_visibility.wcfm_title.wcfm_full_ele.catalog_visibility_ele,
+p.catalog_visibility.wcfm_title.wcfm_full_ele.catalog_visibility_ele + label[for='catalog_visibility'],
+#catalog_visibility {
+    display: none !important;
+}
+/* -- Buttons -- */
+#featured_img_button,
+#wcfm_products_simple_draft_button {
+    display: none !important;
+}
+
+/* -- Can be canceled -- */
+#_wc_appointment_user_can_cancel,
+p._wc_appointment_user_can_cancel.wcfm_title.checkbox_title.appointment {
+    display: none !important;
+}
+
+/* -- Cancelation deadline ( MAKE THIS A PREMIUM FEATURE! ) -- */
+p._wc_appointment_cancel_limit.wcfm_title.wcfm_appointment_unit_label.wc_appointment_cancel_limit.appointment,
+#_wc_appointment_cancel_limit,
+#_wc_appointment_cancel_limit_unit {
+    display: none !important;
+}
+
+/* -- Timezones -- */
+#_wc_appointment_customer_timezones,
+p._wc_appointment_customer_timezones.wcfm_title.checkbox_title.appointment {
+    display: none !important;
+}
+
+/* -- Premium Ad Tab -- */
+#spiral_premium_features_tab {
+    background-color: #36251c;
+}
+
+#spiral_premium_features_tab.collapse-open {
+    color: white;
+}
+
+/* -- Grouped Products Tab -- */
+#wcfm_products_manage_form_grouped_head {
+    display: none;
+}
+
+/* -- Global Add-ons -- */
+div.wc-pao-product-global-addon {
+    display: none;
+}
+
+#gravatar_display {
+    cursor: pointer;
+}
+
+/* -- Availability slot-check, auto-select, days-checkbox fields -- */
+p._wc_appointment_availability_span.wcfm_title,
+#_wc_appointment_availability_span,
+p._wc_appointment_availability_autoselect.wcfm_title,
+#_wc_appointment_availability_autoselect,
+p._wc_appointment_has_restricted_days.wcfm_title,
+#_wc_appointment_has_restricted_days {
+    display: none !important;
+}
+
+._wc_appointment_availability_rules_to_time_0 {
+    text-align: center;
+}
+
+/* -- Availability Priority Field -- */
+p[class*="_wc_appointment_availability_rules_priority_"],
+#_wc_appointment_availability_rules_priority_0,
+.avail_rule_priority {
+    display: none !important;
+}
+
+/* -- Booking on / off hidden for first default entry -- */
+p._wc_appointment_availability_rules_appointable_0,
+#_wc_appointment_availability_rules_appointable_0 {
+    display: none !important;
+}
+
+span.add_multi_input_block.multi_input_block_manupulate.wcfmfa.fa-plus-circle {
+    font-size: 35px !important;
+}
+
+/* -- Calendar View -- */
+#mainform > div.calendar_wrapper > div > div.calendar_header {
+    top: 0px !important;
+}
+
+#mainform.wc_appointments_calendar_form.month_view a.prev,
+#mainform.wc_appointments_calendar_form.month_view a.next {
+    text-indent: inherit;
+    width: 40px;
+}
+
+/* -- Calendar Staff Filter -- */
+div.filters select[name='filter_appointable_staff'] {
+    visibility: hidden !important;
+}
+
+#wcfm_profile_manage_form_apt_gcal_sync_expander p.last_synced > a[href$='#staff-details'] {
+    display: none;
+}
+
+/* -- Google Calendar Sync temporarily disabled until it becomes stable -- */
+#wcfm_profile_manage_form_apt_gcal_sync_expander {
+    display: none;
+}
+
+
+/* -- Appointments List -- */
+#wcfm-appointments_length,
+#dropdown_appointment_staff_filter,
+#wcfm_appointment_details > div.wcfm-collapse-content > div.wcfm-container.wcfm-top-element-container > a:nth-child(2),
+#wcfm_appointment_details > div.wcfm-collapse-content > div.wcfm-container.wcfm-top-element-container > a:nth-child(4),
+#wcfm_appointment_details > div.wcfm-collapse-content > div.wcfm-container.wcfm-top-element-container > a:nth-child(5),
+#wcfm-appointments th:nth-child(5), /* Staff column header (MIGHT BREAK PAGE LATER!) */
+#wcfm-appointments th:nth-child(4), /* Order column header (MIGHT BREAK PAGE LATER!) */
+#wcfm-appointments td:nth-child(5), /* Staff column (MIGHT BREAK PAGE LATER!) */
+#wcfm-appointments td:nth-child(4), /* Order column (MIGHT BREAK PAGE LATER!) */
+#wcfm_appointments_listing a[href$='appointments-staffs/'],
+#wcfm_appointments_listing a[href$='offerings-manage/'] {
+/* #wcfm_appointments_listing > div.wcfm-collapse-content > div.wcfm-container.wcfm-top-element-container > a:nth-child(2) { */
+    display: none !important;
+}
+.spiral_before_time {
+    width: 20px !important;
+}
+.spiral_time,
+.spiral_date {
+    width: 120px !important;
+}
+
+#wcfm-appointments a.wcfm_appointment_mark_confirm.wcfm-action-icon {
+    background-color: seagreen;
+    color: aliceblue;
+}
+#wcfm-appointments a.wcfm_appointment_mark_confirm.wcfm-action-icon:hover {
+    background-color: darkseagreen;
+}
+
+
+/* -- Media Library Modal -- */
+
+div.media-sidebar > div.attachment-details.save-ready > div > div.details > div.filename,
+div.media-sidebar > div.attachment-details.save-ready > div > div.details > a,
+div.media-sidebar > div.attachment-details.save-ready > label,
+div.media-sidebar > div.attachment-details.save-ready > p {
+    display: none !important;
+}
+
+div.media-sidebar > div.attachment-details.save-ready > div > div.details > div.file-size,
+div.media-sidebar > div.attachment-details.save-ready > div > div.details > div.uploaded,
+div.media-sidebar > div.attachment-details.save-ready > div > div.details > div.dimensions,
+div.media-sidebar > div.attachment-details.save-ready > div > div.details > button {
+    font-size: 16px !important;
+    line-height: 35px !important;
+}
+
+#media-search-input,
+media-attachment-date-filters option {
+    font-size: 16px !important;
+}
+
+div.media-sidebar > div.attachment-details.save-ready > h2 {
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*
+.attachments-browser .media-toolbar,
+.attachments-browser .attachments,
+.attachments-browser .uploader-inline {
+    right: 0px !important;
+}
+*/
+
+/* -- Appointment Popup Table -- */
+#cboxLoadedContent tr:nth-of-type(4) {
+    display: none;
+}
+
+/* -- Menu Items -- */
+div.wcfm_menu_home > a,
+div.wcfm_menu_logout,
+div.wcfm_menu_wcfm-articles,
+div.wcfm_menu_wcfm-customers {
+    display: none !important;
+}
+
+/* -- Customer Details -- */
+#wcfm_customers_listing div.wcfm_dashboard_stats {
+    display: none;
+}
+
+/* -- Setup Progressbar -- */
+/* #wcfm_page_load + div.wcfm-container.wcfm-top-element-container, */
+#wcfmmp_profile_complete_progressbar,
+#wcfmmp_profile_complete_progressbar + p {
+    display: none !important;
+}
+
+/* -- Settings -- */
+#spiral-vendor-currency {
+    font-size: 18px;
+}
+
+/*#shop_description,*/
+#wcfm_settings_form_store_expander > p.shop_description.wcfm_title,
+#wcfm_settings_form_store_expander > div:nth-child(9) > span.wcfm-wp-fields-uploader.wcfm-text.wcfm_ele.wcfm-banner-uploads.list_banner_type_upload.list_banner_type_field.list_banner_type_single_img.wcfm_img_uploader,
+#wcfm_settings_form_store_expander > div:nth-child(9) > p.list_banner.wcfm_title.list_banner_type_field.list_banner_type_single_img,
+#wcfm_settings_form_store_expander > span.wcfm-wp-fields-uploader.wcfm-text.wcfm_ele.wcfm-banner-uploads.list_banner_type_upload.list_banner_type_field.list_banner_type_single_img.wcfm_img_uploader,
+#wcfm_settings_form_store_expander > p.list_banner.wcfm_title.list_banner_type_field.list_banner_type_single_img,
+#wcfm_settings_form_store_expander > div:nth-child(12) > h2 {
+    display: none !important;
+}
+
+/* -- Landing Page -- */
+#products p.woocommerce-info {
+    background: #999999 !important;
+    margin-bottom: 20px !important;
+}
+
+#products p.woocommerce-info:hover {
+    background: #939393 !important;
+    margin-bottom: 20px !important;
+}
+
+#products p.woocommerce-info a:hover {
+    background: #ba3f27 !important;
+}
+
+
+#wcfmmp-store h1,
+#wcfmmp-store h2 {
+    color: transparent !important;
+}
+
+
+/* -- Dashboard default stats view -- */
+
+div.wcfm_dashboard_stats_block:nth-of-type(2) {
+    display: none;
+}
+
+.wcfm_form_simple_submit_wrapper {
+    width: auto !important;
+    left: auto !important;
+    float: right !important;
+    right: 0 !important;
+}
+
+.wcfm_dashboard_stats {
+    margin: 8px auto !important;
+}
+
+.wcfm_dashboard_wcfm_product_stats,
+.wcfm_dashboard_more_stats,
+.wcfm_dashboard_wc_reports_pie,
+.wcfm_dashboard_wc_status_data {
+    display: none !important;
+}
+
+div.wcfm_dashboard_wc_reports_sales {
+    width: 65% !important;
+    min-width: 390px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+div.wcfm_dashboard_enquiries {
+    width: 65% !important;
+    min-width: 390px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+div.wcfm_dashboard_latest_topics {
+    display: none;
+}
+
+/* --------------------------------- */
+
+
+
+
+.wcfm-message {
+    left: 0;
+    right: auto;
+}
+
+#wcfm_products_manage_form_costs_expander,
+#wcfm_products_manage_form_appointment_costs_head {
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .wcfm_menu_home {
+        display: none !important;
+        }
+
+    .wcfm_menu_items {
+        margin-top: 15px !important;
+        height: auto !important;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 15px;
+        }
+}
+
+/* -- Custom Currency plugin mess -- */
+
+#scd_saleCurrency,
+#scd_salePriceCurrency,
+#scd_regularCurrency,
+#scd-wcv-select-currencies,
+#scd_wcv_select_currencies_chosen,
+p.scd-wcv-select-currencies {
+    display: none !important;
+}
+
+#scd-currency-list {
+    height: 50px;
+    width: 80%;
+    font-size: 14px;
+}
+
+/* ---------------------------------- */
+
+
+
+/* ----- my-account menu remaining elements --------
+        (whole menu hidden with backend code,
+  remaining 3rd party plugin items taken care of here) */
+
+nav > ul > li.woocommerce-MyAccount-navigation-link--wcfm-store-manager {
+    display: none;
+}
+footer > span.edit-link {
+    display: none;
+}
+
+
+
+/*
+#wcfmmp-store .banner_img img {
+    width: 100% !important;
+    display: block !important;
+}
+
+
+ The rest does not belong here, should be moved to the general file
+
+*/
+
+
+span.spiral-check-big {
+    font-size: 32px;
+    font-weight: bold;
+    color: green;
+}
+
+
+body.login #login h1 a {
+      background: none;
+      height: 64px;
+      width: 307px;
+      margin-left: 10px;
+}
+
+
+.newMsgNotifWrapper {
+    margin-top: 10px !important;
+    margin-right: 20px !important;
+}
+
+.totalUnseenMsgCounter {
+    margin-left: 0 !important;
+    top: 10px;
+    left: 10px;
+    position: initial !important;
+}
+
+.newMsgNotifWrapper .newMsgNotifDropdown {
+    left: -225px !important;
+    width: 250px !important;
+}
+
+.newMsgNotifWrapper .totalUnseenMsgCounter i.fa {
+    color: snow !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+
+#yobro-notification {
+    display: inline-block;
+}
+
+#yobro-new-message {
+    display: inline-block;
+}
+
+a.console-notification-message {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.console-notification-message:hover {
+    background-color: darkred;
+    color: #cccccc;
+}

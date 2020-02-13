@@ -1,0 +1,219 @@
+.vcv-loading-dot {
+    background-color: #d65050 !important;
+}
+
+
+
+/* Welcome Page */
+button.vcv-start-blank-button:nth-child(1) {
+    display: none;
+}
+
+
+/* -------------------------------------------------- *\
+*
+*           Reordering of Template Blocks
+*      ( div already in display: flex by default)
+*
+\* -------------------------------------------------- */
+
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(1) {
+    order: 5 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(7) {
+    order: 6 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(4) {
+    order: 7 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(5) {
+    order: 8 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(6) {
+    order: 9 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(8) {
+    order: 1 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(3) {
+    order: 4 !important;
+}
+
+#vcv-editor-end > div.vcv-ui-tree-view-content.vcv-ui-add-template-content > div > div.vcv-ui-tree-content-section
+> div.vcv-ui-scroll > div.vcv-ui-scroll-content > div > div.vcv-ui-editor-plates-container > div > div > div > ul >
+li:nth-of-type(2) {
+    order: 3 !important;
+}
+
+
+
+/* -------------------------------------------------- *\
+*
+*           Decoration for Custom Blocks
+*
+\* -------------------------------------------------- */
+
+    /* Remove those freakin letters */
+.vcv-ui-item-element-content::before {
+    content: none !important;
+}
+
+img.vcv-ui-item-element-image[alt='Gallery / Video']
+{
+    display: block;
+    background: url("https://getspiral.com/library/2019/08/block2.jpg");
+    box-sizing: border-box;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+}
+
+img.vcv-ui-item-element-image[alt='Text / Image']
+{
+    display: block;
+    background: url("https://getspiral.com/library/2019/08/block1.jpg");
+    box-sizing: border-box;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+}
+
+span.vcv-ui-item-element-content > span > span.vcv-ui-item-control[title='Remove Template'] {
+    display: none;
+}
+
+
+/* -------------------------------------------------- *\
+*
+*           Long list of elements to hide
+*
+\* -------------------------------------------------- */
+
+
+/* Dynamic Content Buttons */
+span.vcv-ui-dynamic-field-control,
+
+/* New Version Notification */
+div.vcv-layout-notifications,
+
+/* Outline Control Dropdowns */
+.vcv-ui-append-control-container,
+.vcv-ui-outline-control-separator,
+.vcv-ui-outline-control-type-index-0,
+.vcv-ui-outline-control-type-index-1,
+div.vcv-ui-outline-control-dropdown.vcv-ui-outline-control-type-index-2,
+/* Don't hide edit and delete buttons
+.vcv-ui-outline-control-simple, */
+
+/* Template saver */
+form.vcv-ui-save-template-form,
+
+/* Menu Items */
+span.vcv-ui-navbar-control[title='Add Element'],
+span.vcv-ui-navbar-control[title='Settings'],
+.vcv-ui-navbar-control[title='Responsive View'],
+span.vcv-ui-navbar-control[title='Hub'],
+span.vcv-ui-navbar-control[title='Menu'],
+
+/* Kill it with fire before it lays eggs */
+/* (hide entire dialog just in case) */
+div.vcv-ui-add-element-content,
+
+/* span.vcv-ui-outline-control-content[title~='Clone'], */
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(1),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(2),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(4),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(5),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(6),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(7),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(8),
+div.vcv-ui-outline-control-dropdown-trigger.vcv-ui-outline-control[title="Row"] + div.vcv-ui-outline-control-dropdown-content
+    > span.vcv-ui-outline-control:nth-of-type(9),
+
+/* Tree Layout */
+dd.vcv-ui-navbar-dropdown-content,
+span.vcv-ui-tree-layout-action[title="Add Element"],
+vcv-ui-tree-layout-control-action[title="Add Element"],
+span.vcv-ui-tree-layout-control-action.vcv-ui-tree-layout-controls-trigger,
+div.vcv-ui-tree-layout-control-dropdown-content,
+
+/* Mobile Tree Layout */
+span.vcv-ui-tree-layout-control-action[title="Add Element"],
+span.vcv-ui-tree-layout-control-action[title="Add Column"],
+span.vcv-ui-tree-layout-control-action[title="Row Layout"],
+span.vcv-ui-tree-layout-control-action[title="Clone"],
+span.vcv-ui-tree-layout-control-action[title="Copy"],
+span.vcv-ui-tree-layout-control-action[title="Paste"],
+span.vcv-ui-tree-layout-control-action[title="Hide: Off"],
+span.vcv-ui-tree-layout-control-action[title="Hide: On"],
+
+/* Design Options */
+div.advanced-design-options > div.vcv-ui-form-group,
+div.advanced-design-options > div.vcv-ui-row > div.vcv-ui-col:nth-child(1),
+
+/* General Options */
+div.vcv-ui-replace-element-block,
+
+/* Text editor */
+#wp-vcv-wpeditor-output-wrap,
+
+/* Link URL selector */
+button.vcv-ui-form-link-button[title='Add Link'],
+
+/* Get more templates button
+   Use as Premium CTA later! */
+div.vcv-ui-editor-get-more,
+
+/*    NOT WORKING !!! */
+/* Add 1-2-3-4 column / Blank row buttons */
+#vcv-ui-blank-row,
+#vcv-editor > div > div > div:last-child,
+
+/* When VC collapses */
+div.vcv-error-screen > div.vcv-logo,
+
+/* Welcome Page */
+div.vcv-start-blank-item-list-container,
+/* Logo on menu top */
+span.vcv-ui-navbar-logo,
+/* Dragging menu from side to top */
+div.vcv-ui-navbar-drag-handler.vcv-ui-drag-handler
+div.vcv-ui-editor-get-more
+{
+    position: absolute !important;
+    top: -6000px !important;
+    visibility: hidden !important;
+    display: none !important;
+    opacity: 0 !important;
+    
+}
